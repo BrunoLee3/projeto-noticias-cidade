@@ -1,0 +1,257 @@
+/* gerais */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h3{
+    background-color: rgb(54, 74, 185);
+    padding: 5px;
+    color: white;
+}
+
+h4{
+    background-color: rgb(163, 5, 5);
+    color: white;
+    display: inline-block;  
+    padding: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+h5{
+    text-transform: uppercase;
+    color: rgb(0, 153, 255);
+    font-size: 0.8em;
+    text-indent: 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+fieldset{
+    background-color: white;
+    border: none;
+    margin-top: 5px;
+}
+
+input[type="text"]{
+    width: 10em;
+    height: 2em;
+    margin: 5px;
+}
+
+input[type="submit"]{
+    background-color: rgb(163, 5, 5);
+    color: white;
+    margin: 5px;
+    padding: 7px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+label{
+    margin: 5px;
+}
+/* fim gerais */
+
+
+/* header */
+#header{
+    height: 233px;
+    background: rgb(108, 108, 207) url(imagens/fundo.png);
+}
+
+img.logo{
+    float: left;
+    margin-left: 258px;
+    margin-top: 20px;
+}
+
+img.detalhe-topo{
+    float: right;
+    margin-left: 510px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+#header ul{
+    margin-left: 258px;
+    margin-top: 110px;
+    background: rgb(163, 5, 5);
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+#header li{
+    float: left;
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1.5em;
+    line-height: 3em;
+    background: url(imagens/divisor.png) repeat-y;
+}
+
+#header .home a{
+    background: none;
+}
+
+#header a:hover{
+    color: black;
+}
+
+#header .pag-atual{
+    background-color: rgb(224, 54, 54);
+}
+/* fim header */
+
+
+#container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+/* lateral */
+.lateral{
+    float: left;
+    width: 200px;
+}
+
+.lateral1{
+    margin-bottom: 15px;
+    padding: 10px;
+    background: url(imagens/fundo-caixa.png); 
+}
+
+.menu{
+    background-color: white;
+}
+
+.lateral li{
+    padding: 12px;
+}
+
+.lateral a{
+    text-decoration: none;
+    color: black;
+}
+
+.lateral a:hover{
+    color:  #a1a1a1;
+    background: url(imagens/marcador.png) no-repeat left;
+    padding-left: 20px;
+}
+/* fim lateral */
+
+
+/* colunas */
+.colunas{
+    float: right;
+    width: 340px;
+    margin-left: 17px;
+}
+
+.coluna-unica{
+    float: right;
+    width: 640px;
+    margin-left: 17px;
+}
+
+.conteudo{
+    margin-bottom: 15px;
+    padding: 10px;
+    background: url(imagens/fundo-caixa.png); 
+}
+
+.noticia{
+    width: 98.5%;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.colunas a{
+    color: rgb(163, 5, 5);
+}
+
+.colunas a:hover{
+    color: rgb(233, 56, 56);
+}
+
+.mini-noticia{
+    /* margin: 5px auto; */
+    font-size: 0.85em;
+    border-bottom: 1px solid grey;
+}
+
+.mini-noticia a{
+    color: black;
+    padding: 5px;
+}
+
+.mini-noticia a:hover{
+    color:black
+}
+
+.mini-noticia:hover{
+    background-color: #b9c0c7;
+}
+/* fim coluna */
+
+
+.vazio{
+    clear: both;
+}
+
+img.grande{
+    width: 280px;
+}
+
+img.grande-brasil{
+    width: 610px;
+}
+
+img.pequena{
+    width: 100px;
+    float: left; 
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.rodape{
+    clear: both;
+    background-color: #294c71;
+    line-height: 70px;
+    color: white;
+    font-size: 0.8em;
+}
+
+.conteudo-rodape{
+    width: 920px;
+    margin: 0 auto;
+}
